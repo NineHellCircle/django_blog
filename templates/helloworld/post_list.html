@@ -1,5 +1,6 @@
+{% load static %}
 <html>
-<head><link rel="stylesheet" href="style.css"></head>
+<head><link rel="stylesheet" href="{% static 'css/style.css' %}"></head>
     <h1>Django yaaaasss</h1>
     <div id = "container">
     {% for post in posts %}
