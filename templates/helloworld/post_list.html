@@ -1,11 +1,14 @@
 <html>
+<head><link rel="stylesheet" href="style.css"></head>
     <h1>Django yaaaasss</h1>
+    <div id = "container">
     {% for post in posts %}
-   <div>
+   <div class="post">
        <p>&nbsp;</p>
-        <p>published: {{ post.published_date }}</p>
         <h2><a href="#">{{ post.title }}</a></h2>
-        <p>{{ post.text|linebreaksbr }}</p>
+        <p class="text">{{ post.text|linebreaksbr }}</p>
+        <p class = "published">published: {{ post.published_date }}</p>
     </div>
 {% endfor %}
+    </div>
 </html>
