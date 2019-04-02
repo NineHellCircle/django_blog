@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa038bd5-6971-4f44-843f-2d115e138999" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/helloworld/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/helloworld/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/helloworld/post_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +20,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="27" />
+          <entry key="html" value="46" />
           <entry key="py" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="27" />
+          <entry key="HTML" value="46" />
           <entry key="Python" value="72" />
         </counts>
       </usages-collector>
@@ -139,8 +138,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/helloworld/post_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="68">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding>
+                <element signature="e#83#89#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -381,8 +383,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/helloworld/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#83#89#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

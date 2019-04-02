@@ -2,6 +2,7 @@
     <h1>Django yaaaasss</h1>
     {% for post in posts %}
    <div>
+       <p>&nbsp;</p>
         <p>published: {{ post.published_date }}</p>
         <h2><a href="#">{{ post.title }}</a></h2>
         <p>{{ post.text|linebreaksbr }}</p>
