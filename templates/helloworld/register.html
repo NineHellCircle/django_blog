@@ -1,0 +1,13 @@
+{% load static %}
+<html>
+<head><link rel="stylesheet" href="{% static 'css/style.css' %}"></head>
+    <h1>Django project</h1>
+    <div id = "container">
+    <form action="" method="post">
+      {% csrf_token %}
+        
+      {{ form.as_p }}
+      <button type="submit">Зарегистрироваться</button>
+    </form>
+    </div>
+</html>
